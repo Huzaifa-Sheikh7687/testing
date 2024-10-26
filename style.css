@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:src="";
+}
+
+body{
+    background: url(background.jpg);
+    background-size: cover;
+}
+
+.heading{
+    margin-top: 60px;
+    margin-left: 185px;
+    font-size: 40px;
+ 
+}
+
+#calculator-container{
+    width: 300px;
+    height: 432px;
+    border: 3px solid rgb(149, 147, 147);
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 185px;
+}
+
+#display{
+    height: 60px;
+    width: 96%;
+    margin: 6px;
+    border: none;
+    font-size: 35px;
+    border-radius: 7px;
+    background-color: rgb(225, 220, 220);
+    color: rgb(57, 56, 56);
+    text-align: right;
+}
+
+.button{
+    height: 50px;
+    width: 85px;
+    border-radius: 7px;
+    margin: 5px 6px;
+    padding: 5px 10px;
+    font-size: 30px;
+    border: none;
+    background-color: rgb(61, 126, 183);
+    
+}
+
+#cancel-button{
+    height: 50px;
+    width: 85px;
+    border-radius: 7px;
+    margin: 5px 6px;
+    padding: 5px 10px;
+    font-size: 30px;
+    border: none;
+    background-color: rgb(176, 215, 57);
+}
+
+#clear-button{
+    height: 50px;
+    width: 85px;
+    border-radius: 7px;
+    margin: 5px 6px;
+    padding: 5px 10px;
+    font-size: 30px;
+    border: none;
+    background-color: rgb(227, 42, 42);
+}
+
+#ok-button{
+    height: 50px;
+    width: 85px;
+    border-radius: 7px;
+    margin: 5px 6px;
+    padding: 5px 10px;
+    font-size: 30px;
+    border: none;
+    background-color: rgb(51, 175, 51);
+}
